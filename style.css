@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid #333;
+    padding: 30px 40px;
+    text-align: center;
+    width: 450px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.linha {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#quantidade {
+    width: 70px;
+}
+
+#senha {
+    width: 160px;
+}
+
+button {
+    padding: 8px 12px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#mensagem {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ef4444;
+    color: white;
+    font-style: italic;
+    display: none;
+}
